@@ -12,7 +12,7 @@ then run these commands:
    ->php artisan migrate
 - Seed the User on the users table using the command :
     -  php artisan db:seed --class=UserSeeder
-    And use the following credentials:
+    - And use the following credentials:
     - email : praveen@gmail.com
     - password : praveen@123
 - Finally run the project by using this command 'php artisan server'.
