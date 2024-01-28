@@ -5,6 +5,9 @@
 2.composer install
 3.npm install && npm run dev
 4.Import DB file named 'blogs.sql' on your local, renamed the .env.example file to .env file, enter the correct db details there. 
+then run these commands:
+   -> php artisan cache:clear
+   ->php artisan config:clear
 5.Run the migrations commands:
    ->php artisan migrate
 5.php artisan server.
