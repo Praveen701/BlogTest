@@ -8,7 +8,7 @@ then run these commands:
    - php artisan cache:clear
    - php artisan config:clear
    - php artisan key:generate
-- Import the tables by using the migration command:
+- Migrate the tables to DB using the below command:
    - php artisan migrate
 - Seed the User on the users table using the command :
     -  php artisan db:seed --class=UserSeeder
