@@ -5,15 +5,23 @@
 - composer install
 - Import DB file named 'blog_management.sql' from the project folder to your local, renamed the .env.example file to .env file, enter the correct db details there. 
 then run these commands:
-   -> php artisan cache:clear
-   -> php artisan config:clear
-   -> php artisan key:generate
+   - php artisan cache:clear
+   - php artisan config:clear
+   - php artisan key:generate
 - Import the tables by using the migration command:
    ->php artisan migrate
+- Seed the User on the users table using the command :
+    -  php artisan db:seed --class=UserSeeder
+    And use the following credentials:
+    - email : praveen@gmail.com
+    - password : praveen@123
 - Finally run the project by using this command 'php artisan server'.
-- To perform a UnitTest run the below commands on order : 
-   -> php artisan db:seed --class=UserSeeder
-   -> php artisan db:seed --class=PostSeeder
-   ->php artisan test
+- To perform a UnitTest run the below commands on order :
+    if you not created any post or users ,run the below command to perform test: 
+   - php artisan db:seed --class=UserSeeder
+   - php artisan db:seed --class=PostSeeder
+   - php artisan test
+  if you have create posts and users run:
+   - php artisan test
 
 
