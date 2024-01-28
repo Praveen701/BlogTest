@@ -20,7 +20,6 @@
                         <div class="col-md-4">
                             <a type="button" href="{{url('user/posts')}}" class="btn btn-primary">Manage Post</a>
 
-                            <a type="button" href="{{url('/')}}" class="btn btn-primary mr-3">Blog Page</a>
                         </div>
                        
                       
