@@ -1,5 +1,5 @@
 
-## About Blog Management
+## Setup Blog Management
 
 - Download the project as .zip file and extract on your local host on htdocs and follow the instructions below.
 - composer install
