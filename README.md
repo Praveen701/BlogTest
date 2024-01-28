@@ -1,7 +1,7 @@
 
 ## About Blog Management
 
-- Download as .zip and install the below mentioned commands on the order.
+- Download the project as .zip file and extract on your local host on htdocs and follow the instructions below.
 - composer install
 - Import DB file named 'blog_management.sql' from the project folder to your local, renamed the .env.example file to .env file, enter the correct db details there. 
 then run these commands:
