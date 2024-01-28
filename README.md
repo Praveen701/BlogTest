@@ -9,7 +9,7 @@ then run these commands:
    - php artisan config:clear
    - php artisan key:generate
 - Import the tables by using the migration command:
-   ->php artisan migrate
+   - php artisan migrate
 - Seed the User on the users table using the command :
     -  php artisan db:seed --class=UserSeeder
     - And use the following credentials:
