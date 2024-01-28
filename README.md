@@ -8,7 +8,7 @@ then run these commands:
    -> php artisan cache:clear
    -> php artisan config:clear
    -> php artisan key:generate
-5.Run the migrations commands:
+5.Import the tables by using the migration command:
    ->php artisan migrate
 5.Finally run the project by using this command 'php artisan server'.
 6.To perform a UnitTest run the below commands on order : 
