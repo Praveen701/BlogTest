@@ -14,6 +14,14 @@
                     <div class="post_content">
                         <p>{{$post->content}}</p>
                     </div>
+                    <div class="row mt-2">
+                        <div class="col-6">
+                            <p>Created by <b>{{$post->user_detail->name}}</b></p>
+                        </div>
+                       <div class="col-6">
+                            <p>Created <b>{{$post->created_at->diffForHumans()}}</b></p>
+                        </div>
+                    </div>
                     @if(!$loop->last)
                     <hr>
                     @endif
